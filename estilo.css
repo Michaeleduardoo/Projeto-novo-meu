@@ -27,6 +27,14 @@
     font-weight: 600;
 }
 
+#bt:hover{
+    opacity: 0.5;
+}
+
+#bt:active{
+    opacity: 0.8;
+}
+
 #caixa {
     margin-top: 48px;
     margin-bottom: 165px;
@@ -85,6 +93,11 @@ main {
         margin-top: -19px;
         margin-right: 15px;
         
+    }
+
+
+    #bt:active{
+        opacity: 0.8;
     }
 
     #imagem {
